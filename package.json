@@ -28,5 +28,8 @@
     "nearley": "^2.20.1",
     "prompt-sync": "^4.2.0"
   },
-  "homepage": "https://sachindas246.github.io/logic-code-doc/"
+  "homepage": "https://sachindas246.github.io/logic-code-doc/",
+  "bugs":{
+  	"url": "https://github.com/SachinDas246/logic-code-node-package/issues"  
+  }
 }
