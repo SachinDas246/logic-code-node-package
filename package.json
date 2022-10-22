@@ -1,0 +1,32 @@
+{
+  "name": "logic-code",
+  "version": "0.0.0",
+  "description": "Logic code allows users to generate c++ code that simulate logic circuits.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "bin": {
+    "lcc": "./bin/logicCodeController.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SachinDas246/logic-code-node-package.git"
+  },
+  "keywords": [
+    "logic",
+    "code",
+    "electronic",
+    "code",
+    "simulator"
+  ],
+  "author": "Sachin Das <sachindas@protonmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "moo": "^0.5.2",
+    "mz": "^2.7.0",
+    "nearley": "^2.20.1",
+    "prompt-sync": "^4.2.0"
+  },
+  "homepage": "https://sachindas246.github.io/logic-code-doc/"
+}

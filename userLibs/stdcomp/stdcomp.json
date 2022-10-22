@@ -1,0 +1,271 @@
+{
+    "name": "stdcomp",
+    "include": "#include \"lib/stdcomp/stdcomp.h\"",
+    "dependencies": [
+        {
+            "target": "gen/tmp/stdcomp.o",
+            "dependencies": [
+                "gen/lib/stdcomp/stdcomp.cpp",
+                "gen/lib/stdcomp/stdcomp.h"
+            ],
+            "action": "g++ -c gen/lib/stdcomp/stdcomp.cpp",
+            "outputfilename": "gen/tmp/stdcomp.o"
+        }
+    ],
+    "modules": [
+        {
+            "name": "Not",
+            "inputs": [
+                "a"
+            ],
+            "outputs": [
+                "o"
+            ]
+        },
+        {
+            "name": "CtrlInverter",
+            "inputs": [
+                "a",
+                "c"
+            ],
+            "outputs": [
+                "o"
+            ]
+        },
+        {
+            "name": "Buffer",
+            "inputs": [
+                "a"
+            ],
+            "outputs": [
+                "o"
+            ]
+        },
+        {
+            "name": "CtrlBuffer",
+            "inputs": [
+                "a",
+                "c"
+            ],
+            "outputs": [
+                "o"
+            ]
+        },
+        {
+            "name": "And2",
+            "inputs": [
+                "a",
+                "b"
+            ],
+            "outputs": [
+                "o"
+            ]
+        },
+        {
+            "name": "And3",
+            "inputs": [
+                "a",
+                "b",
+                "c"
+            ],
+            "outputs": [
+                "o"
+            ]
+        },
+        {
+            "name": "And4",
+            "inputs": [
+                "a",
+                "b",
+                "c",
+                "d"
+            ],
+            "outputs": [
+                "o"
+            ]
+        },
+        {
+            "name": "Or2",
+            "inputs": [
+                "a",
+                "b"
+            ],
+            "outputs": [
+                "o"
+            ]
+        },
+        {
+            "name": "Or3",
+            "inputs": [
+                "a",
+                "b",
+                "c"
+            ],
+            "outputs": [
+                "o"
+            ]
+        },
+        {
+            "name": "Or4",
+            "inputs": [
+                "a",
+                "b",
+                "c",
+                "d"
+            ],
+            "outputs": [
+                "o"
+            ]
+        },        
+        {
+            "name": "Nand2",
+            "inputs": [
+                "a",
+                "b"
+            ],
+            "outputs": [
+                "o"
+            ]
+        },
+        {
+            "name": "Nand3",
+            "inputs": [
+                "a",
+                "b",
+                "c"
+            ],
+            "outputs": [
+                "o"
+            ]
+        },
+        {
+            "name": "Nand4",
+            "inputs": [
+                "a",
+                "b",
+                "c",
+                "d"
+            ],
+            "outputs": [
+                "o"
+            ]
+        },
+        {
+            "name": "Nor2",
+            "inputs": [
+                "a",
+                "b"
+            ],
+            "outputs": [
+                "o"
+            ]
+        },
+        {
+            "name": "Nor3",
+            "inputs": [
+                "a",
+                "b",
+                "c"
+            ],
+            "outputs": [
+                "o"
+            ]
+        },
+        {
+            "name": "Nor4",
+            "inputs": [
+                "a",
+                "b",
+                "c",
+                "d"
+            ],
+            "outputs": [
+                "o"
+            ]
+        },
+        {
+            "name": "Xor2",
+            "inputs": [
+                "a",
+                "b"
+            ],
+            "outputs": [
+                "o"
+            ]
+        },
+        {
+            "name": "Xor3",
+            "inputs": [
+                "a",
+                "b",
+                "c"
+            ],
+            "outputs": [
+                "o"
+            ]
+        },
+        {
+            "name": "Xor4",
+            "inputs": [
+                "a",
+                "b",
+                "c",
+                "d"
+            ],
+            "outputs": [
+                "o"
+            ]
+        },
+        {
+            "name": "Xnor2",
+            "inputs": [
+                "a",
+                "b"
+            ],
+            "outputs": [
+                "o"
+            ]
+        },
+        {
+            "name": "Xnor3",
+            "inputs": [
+                "a",
+                "b",
+                "c"
+            ],
+            "outputs": [
+                "o"
+            ]
+        },
+        {
+            "name": "Xnor4",
+            "inputs": [
+                "a",
+                "b",
+                "c",
+                "d"
+            ],
+            "outputs": [
+                "o"
+            ]
+        },
+        {
+            "name": "PosTrig",
+            "inputs": [
+                "i"
+            ],
+            "outputs": [
+                "o"
+            ]
+        },
+        {
+            "name": "NegTrig",
+            "inputs": [
+                "i"
+            ],
+            "outputs": [
+                "o"
+            ]
+        }
+    ]
+}
